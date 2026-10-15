@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #e8a232b4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+body{
+    background-image: url(biblioimg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+}
+
+h1, h2{
+    color: antiquewhite;
+    font-size: 35px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #e8a232b4;
+    border-radius: 12px;
+    height: 500px;
+    width: 500px;
+    gap: 40px;
+    margin: 10px;
+    box-shadow: 0 10px 60px 10px #eeb438c0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.input-item{
+    width: fit-content;
+    border: 2px solid #fcbd3f;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+input{
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 253, 240);
+    color: #9c5e0e ;
+}
+
+button{
+    border: none;
+    background-color: #fcbd3f97;
+    padding: 12px;
+    border-radius: 12px;
+    align-self: end;
+    color: rgb(255, 253, 240);
+    text-align: center;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: #fcbd3fd4;
+    cursor: pointer;
+}
+
+#mensagemConfirmacao {
+    margin-top: 20px;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+     text-shadow: 2px 2px 4px #d49e31d4;
+}

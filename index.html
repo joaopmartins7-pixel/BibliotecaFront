@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Lótus Dourada - Cadastro de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logobiblio.png" alt="Logo da Biblioteca Lótus Dourada">
+        <h1>Biblioteca Lótus Dourada</h1>
+    </header>
+    <main>
+            <h2>Cadastro de Livros</h2>
+            <form>
+                <div class="inputgroup">
+                    <label for="code"></label>
+                    <div class="input-item">
+                        <input id="code" type="text" placeholder="Código de Identificação:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="title"></label>
+                    <div class="input-item">
+                        <input id="titulo" type="text" placeholder="Título:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="author name"></label>
+                    <div class="input-item">
+                        <input id="author name" type="text" placeholder="Nome do Autor:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="publication year"></label>
+                    <div class="input-item">
+                        <input id="publication year" type="text" placeholder="Ano de Publicação:">
+                    </div>
+                </div>
+                <button id="btn-cadastro">Cadastrar Livro</button>
+                <div id="mensagemConfirmacao"></div>
+            </form>
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
